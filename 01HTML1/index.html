@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	First page for exercises</title>
+	<meta charset="UTF-8">
+	<meta name="Darqhan" content="Free Web exercise" content="html, Javascript">
+	<meta http-equiv="refresh" content="30">
+</head>
+<header>This is an online exercise page</header>
+<body>
+<h1>HTML basics</h1>
+<p><small>For the greater fun I refresh the page - and the robo picture in below - in every half minutes.</small></p>
+<hr>
+<h2>Web Basics</h2>
+<hr>
+<h3>Facts about HTTP request</h3>
+<ul>
+<li> Hypertext transfer protocol is an application protocol. Foundation of the World Wide Web. Uses Hyperlinks. <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">  (see</a><em> http secure </em>) </li>
+<li> Currently we use the HTTP2 <a href="https://en.wikipedia.org/wiki/HTTPS">  (see</a><em> http secure </em>) </li>
+ <li>Sample HTTP request : <a href="https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html">  (see</a><em> http secure </em>) </li>
+ <li>HTTP commands  <a href="https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340">  (see</a><em> http secure </em>) </li>
+ <ol>
+ 	<li>GET</li>
+ 	<li>PUT</li>
+ 	<li>DELETE</li>
+ 	<li>POST</li>
+ </ol>
+ <li> HTTP error codes <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">  (see</a><em> http secure </em>) </li> </li>
+ <ol>
+ 	<li>100...Informational responses</li>
+ 	<li>200...Success</li>
+ 	<li>300...Redirection codes</li>
+ 	<li>400...Client errors</li>
+ 	<li>500...Server errors</li>
+ </ol>
+</ul>
+<h3>Few words about IP adress</h3>
+<ul>
+	<li>An Internet Protocol address (IP address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication <a href="https://en.wikipedia.org/wiki/IP_address">  
+	(see</a><em> http secure </em>) </li>
+	versions:
+	<ul> 
+	<li>IPv4 (32 bits) sample: 127.0.0.1</li>
+	<li>IPv6 (128 bits) sample: 2001:0db8:85a3:0000:0000:8a2e:0370:7334</li>
+	</ul>
+</ul>
+<h3>URL</h3>
+<ul>
+<li>Uniform Resource Locator aka web address (http, www) <a href="https://en.wikipedia.org/wiki/URL">  (see</a> URL definition)</li>
+<li>URI = scheme:[//authority]path[?query][#fragment]</li>
+<li>invented by Tim BL at 1992 (they used the full path before)</li>
+</ul>
+<h3>So, Servers</h3>
+<dl>
+ <dt>In computing, a server is a computer program or a device that provides functionality for other programs or devices, called "clients". So the server communicates with the clients. <a href="https://en.wikipedia.org/wiki/Server_computing)">  (see</a> more about servers</dt>
+ <dt>Servers by Purpose</dt>
+ 	<dd>- App (hosts web apps, using web browser)</dd>
+ 	<dd>- Catalog (directory, name)</dd>
+ 	<dd>- Database (collestion of data organized in forms)</dd>
+ 	<dd>- File (share your files)</dd>
+ 	<dd>- Print (more user connects to more printers)</dd>
+ 	<dd>- Proxy (traffic performance, authorization)</dd>
+ 	<dd>- Web (hosts online web pages)</dd>
+</dl>
+<hr>
+<h2>Interesting things from World Wide Web's History</h2>
+<hr>
+<ul>
+	<li>First webpage of the World ever(<a href="https://home.cern/topics/birth-web">  (see</a>)</li>
+	<ol type="I">
+		<li>Tim Berners-Lee (CERN) creates the very first webpage 1989-1991</li>
+		<li>Tim Berners-Lee develops the World Wide Web Consortium 1994</li>
+		<li>Developing of CSS standards 1996-2000</li>
+	</ol>
+	<li>First webpage of Hungary ever (see <a href="http://www.fsz.bme.hu/www/other_h.html">  here</a>)</li>
+	<li>Historical Maps of the Internet (see <a href="http://www.opte.org/about/"> here)</a></li>
+	<li>Computer Networking Tutorial (see <a href="https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBpuvPW0aHa7mKdn_k9SPKO"> here)</a></li>
+	<li>Crash Course Series - <em>Computer Series</em> (see <a href="https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a"> here)</a></li>
+	<li>HTML is a specialized SGML (standard generalized marked language, it is invented by Goldfarb and Lorie at IBM in the 1960's)</li>
+</ul>
+<br>
+<hr>
+<h2>And finally, some basic Javascript with randomly generated robofriends</h2>
+
+<hr>
+<img id="RoboRobo" src="" alt="random robohash" height="40%" width="40%">
+<script type="text/javascript">
+function randomName() {
+  var text = "";
+  var possible = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  for (var i = 0; i < 5; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  return text;
+}
+document.getElementById("RoboRobo").src = "https://robohash.org/"+randomName();
+</script>
+<br>
+<p></p>
+</body>
+<footer>&copy 2018 by Darqhan</footer>
+</html>
