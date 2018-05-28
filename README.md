@@ -1,15 +1,12 @@
 # Online Exercises for Front End Mastery and UX/UI Dev Skills
+
 ## Summary:
-*Here lies my first repo for portfolio && follow my learning path. In this file I already added stuffs like below.*
+*Here will be my first repo for portfolio & to follow my learning path. First you can see the index of my projects, second you can see the index of my favorite tutorials, videos, books.*
 
-01HTML1 [link](https://cdn.rawgit.com/Darqhan/OnlineExercises/0809c593/01HTML1/index.html). 
+## Index of Projects
+01 HTML1 [link to the page](https://cdn.rawgit.com/Darqhan/OnlineExercises/0809c593/01HTML1/index.html). 
+02 HTML2 
+03 CSS1 
+04 CSS2
 
-HTML:
-- lists
-- refresh page
-
-Javascript:
-- robofriends with random name and paste
-
-Content:
-- base Frontend infos about internet with links
+## Index of Tutorial Materials
