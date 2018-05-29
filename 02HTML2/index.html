@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <title>CuteKitties</title>
+  <style>
+    .red-text {color: red; text-align: center;}
+    h1 {font-family: Lobster, Monospace;}
+    p {font-size: 16px;
+      font-family: Monospace;}
+    body {
+      text-align: center;
+      background-color: #D4A190;
+    }
+    .thick-green-border {
+      border-color: green;
+      border-width: 10px;
+      border-style: solid;
+      border-radius: 50%;
+      text-align: center;}
+    .larger-image {
+      width: 400px;}
+      .smaller-image {
+      width: 100px;}
+      .center {
+        text-align: center;
+      }
+  </style>
+</head>
+  <body>
+    <h1  class="red-text"> Cute Kitties</h1>
+<div class="center">
+      <img class="larger-image thick-green-border" id="Kitty" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
+      <div >
+        <img class="smaller-image thick-green-border" id="Kitty1" src="" alt="A cute orange cat lying on its back. ">
+        <img class="smaller-image thick-green-border" id="Kitty2" src="" alt="A cute orange cat lying on its back. ">     
+        <img class="smaller-image thick-green-border" id="Kitty3" src="" alt="A cute orange cat lying on its back. ">
+      </div>
+</div>     
+      <br>
+      <p class="center"><a href="https://robohash.org/" >more random cat photos</a></p> 
+      <p class="center">Hit F5 for more random kitties</p>      
+            
+
+  </body>
+</html>
+
+<script type="text/javascript">
+function randomName() {
+  var text = "";
+  var possible = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  for (var i = 0; i < 5; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  return text;
+}
+document.getElementById("Kitty").src = "https://robohash.org/"+randomName()+"?set=set4";
+document.getElementById("Kitty1").src = "https://robohash.org/"+randomName()+"?set=set4";
+document.getElementById("Kitty2").src = "https://robohash.org/"+randomName()+"?set=set4";
+document.getElementById("Kitty3").src = "https://robohash.org/"+randomName()+"?set=set4";
+</script>
