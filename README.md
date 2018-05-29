@@ -16,7 +16,7 @@
 
 ## Index of Tutorial Materials
 ### CheatSheets
-- Linux soon ([link to the page](http://darkhan.uw.hu/files/LinuxCheatSheet.pdf))
+- Linux ([link to the page](http://darkhan.uw.hu/files/LinuxCheatSheet.pdf))
 
 ### Books
 - one
