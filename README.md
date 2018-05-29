@@ -16,8 +16,7 @@
 
 ## Index of Tutorial Materials
 ### CheatSheets
-- Linux soon (it's already done, need to review)
-- npm soon (handwritten only)
+- Linux soon ([link to the page](http://darkhan.uw.hu/files/LinuxCheatSheet.pdf)
 
 ### Books
 - one
