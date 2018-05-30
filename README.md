@@ -17,6 +17,7 @@
 ## Index of Tutorial Materials
 ### CheatSheets
 - Linux ([link to the page](http://darkhan.uw.hu/files/LinuxCheatSheet.pdf))
+- Git ([link to the page](http://darkhan.uw.hu/files/Git%20Quick%20Cheat%20Sheet.pdf))
 
 ### Books
 - one
