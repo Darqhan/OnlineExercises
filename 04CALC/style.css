@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+	background: linear-gradient(90deg, #ccffcc, #003300);
+}
+body {
+  	  
+  }
+h1 {
+	text-align: center;
+	background-color: white;
+	color: yellow;
+	/*four shadows from the four sides = bordered text*/
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+	}
+
+button {
+	float: left;
+	width: 3em; 
+	height: 3em;
+	margin: 1em;
+	cursor: pointer;
+}
+.machine {
+	width: 20em;
+	margin: auto;
+}
+#console {
+	width: 12em;
+	height: 2em;
+	/*same as height but puts the text into the center vertically*/
+	line-height: 2em;
+	background-color: white;
+	color: red;
+	float: right;
+	margin-top:1em;
+}
+.firstline {
+	float: left;
+	text-align: right;
+	margin-top:1em;
+}
+.bottom {
+	margin-top: 85%;
+}
+footer {
+	text-align: center;
+}
