@@ -8,7 +8,7 @@
 - 02 HTML2 - html with kitties around  ([link to the page](http://darkhan.uw.hu/exercises/02/index.html) and [link to the project](02HTML2/).)
 - 03 HTML3 - robo enter page ([link to the page](http://darkhan.uw.hu/) and [link to the project](03HTML3/).) 
 - 04 CSS2 soon
-- 05 Javascript soon
+- 05 Javascript Calculator (link to the page and link(http:/) to the project(04CALC/).)
 - 06 MongoDB soon
 - 07 NodeJS soon
 - 08 React soon
