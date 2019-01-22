@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="script.js"></script>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
 
+<h1>JavaScript Calculator v1.0 non-LTS</h1>
+<div class="machine">
+
+<div class="firstline"> <button id="clearprompt" onclick="clearCleanButton()">clear</button> <div id="console" value="0"> </div> </div>
+<br>
+<button id="numOne" onclick="added(1)" value="1">1</button>
+<button id="numTwo" onclick="added(2)" value="2">2</button>
+<button id="numThree" onclick="added(3)" value="3">3</button>
+<button id="plus" class="operandus" onclick="operand('+')">+</button>
+
+<button id="numFour" onclick="added(4)" value="4">4</button>
+<button id="numFive" onclick="added(5)" value="5">5</button>
+<button id="numSix" onclick="added(6)" value="6">6</button>
+<button class="operandus" onclick="operand('-')">-</button>
+
+<button id="numSeven" onclick="added(7)" value="7">7</button>
+<button id="numEight" onclick="added(8)" value="8">8</button>
+<button id="numNine" onclick="added(9)" value="9">9</button>
+<button class="operandus" onclick="operand('*')">*</button>
+
+
+<button id="intFloat" onclick ="added('.')" value=".">.</button>
+<button id="numZero" onclick="added(0)" value="0">0</button>
+<button onclick="solution()">=</button>
+<button class="operandus" onclick="operand('/')">/</button>
+
+</div>
+<div class="bottom">
+	<h1>Leírás</h1>
+	<p>clear = törli a konzolt, törli a konzol értékét is</p> 
+	<p>számok = 1-9-ig hozzáad a konzol értékéhez és megjelnéséhez</p>
+	<p>0 = ha nullával kezdesz, de egész, akkor törli a 0-t, ha .-t teszel, akkor tört</p>
+	<p>. = törtszámként kezdesz akkor 0. lesz , és csak egy tizedespont engedett számonként</p>
+	<p>A számok float-ként vannak tárolva, és úgy végzi a program a műveleteket vele.</p>
+	<p>tested on Chrome</p>
+</div>
+<footer>&#9400 darqhan 2018</footer>
+</body>
+</html>
